@@ -1,6 +1,6 @@
-# MongoDB.Thin
-Thin layer over MongoDB driver for .NET. It is mostly extension methods and builders.
-It allows to query MongoDB more easily.
+# MongoDB.Thin <img src="crepe.png" width="10%" alt="logo which is a crêpe" />
+Thin layer over MongoDB driver for .NET, it is thin as a crêpe! (hence the icon...).
+It is mostly extension methods and builders to allow querying MongoDB more easily.
 The goal of this library is to stay simple, more complex cases can be built upon.
 
 # Nuget
