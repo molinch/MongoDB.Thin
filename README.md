@@ -1,12 +1,18 @@
 # MongoDB.Thin
 Thin layer over MongoDB driver for .NET. It is mostly extension methods and builders.
 It allows to query MongoDB more easily.
+The goal of this library is to stay simple, more complex cases can be built upon.
+
+# Nuget
+The nuget package name is `MongoDB.Thin`: https://www.nuget.org/packages/MongoDB.Thin/
 
 # Usage
 
 ## ASP.NET Core
 To add it to ASP.NET Core
+```c#
 services.AddMongo("YourConnectionString", "YourDatabaseName");
+```
 
 ## Get a collection
 Example where _database is an instance of IMongoDatabase. And Game is the collection holding the games.
@@ -67,3 +73,8 @@ Here Game collection got 3 indexes:
 - GameType field ascending
 - Status field ascending
 - Players is an array, it got an index on Id field
+
+## More usage examples
+You can see more usage examples in OnlineBoardz repository:
+- [GameRepository class](https://github.com/molinch/onlineboardz/blob/master/src/game-svc/Api/Persistence/GameRepository.cs)
+- [TicTacToeRepository class](https://github.com/molinch/onlineboardz/blob/master/src/game-svc/Api/Persistence/TicTacToeRepository.cs)
