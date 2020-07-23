@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30223.230
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB.Thin", "MongoDB.Thin\MongoDB.Thin.csproj", "{83436439-DBBB-494E-B51B-5B67F69561AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.Thin.Tests", "..\MongoDB.Thin.Tests\MongoDB.Thin.Tests.csproj", "{A4A7DB87-E15F-4B43-8FEA-1ACCC324A0CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.Thin.Tests", "MongoDB.Thin.Tests\MongoDB.Thin.Tests.csproj", "{A4A7DB87-E15F-4B43-8FEA-1ACCC324A0CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
